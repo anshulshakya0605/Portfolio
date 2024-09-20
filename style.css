@@ -1,0 +1,28 @@
+/* Custom CSS */
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px; /* Adjust this value to match the navbar height */
+  }
+  
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+  
+  #hero {
+    height: 80vh;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #portfolio .card {
+    transition: transform 0.3s ease;
+  }
+  
+  #portfolio .card:hover {
+    transform: translateY(-10px);
+  }
